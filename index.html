@@ -22,10 +22,12 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body id="page-top">
+  <body class="bg-light" id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container px-4 px-lg-5">
@@ -45,14 +47,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">UNIDADES</a>
+              <a class="nav-link" href="#unidades">UNIDADES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">UBICACIÓN</a>
+              <a class="nav-link" href="#avance">AVANCE DE OBRA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#signup">CONTACTO</a>
+              <a class="nav-link" href="#contacto">CONTACTO</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ubicacion">UBICACIÓN</a>
+            </li>
+           
+           
           </ul>
         </div>
       </div>
@@ -95,7 +102,7 @@
                   class="project-text w-100 my-auto text-lg-left"
                 >
                   <h4 class="text-black">El proyecto</h4>
-                  <p class="mb-0 text-black-50">
+                  <p class="mb-0 ">
                     Ubicada en el segundo pulmón ver de la provincia de Buenos Aires, <b>Olsen Reserva Leloir</b> ofrece un excelente entorno natural a tan solo pocos minutos de la capital, y con iguanable acceso a las autopistas.<br>
                     Leloir es una zona que se encuentra en pleno desarrollo inmobiliario, ya ya cuenta con un corredor gastronómico de las firmas más reconocidas.
                    <br> Conectada con la naturaleza <b>Olsen</b> está a cuadra de Kansas, el Hotel Hilton, Sportclub y el Cirucuito Aeróbico Leloir. 
@@ -121,7 +128,7 @@
                   class="project-text w-100 my-auto text-lg-right"
                 >
                   <h4 class="text-black">Características del barrio</h4>
-                  <p class="mb-0 text-black-50">
+                  <p class="mb-0 ">
                     -Entrada y salida con portón automático. <br>
                     -Portería con garita física <br>
                     -Cerco eléctrico<br>
@@ -143,20 +150,17 @@
         </div>
       </div>
     </section>
-
-
-  
     <section class="img2 d-flex align-items-center justify-content-center">
       <div class="text-center text-white">
             <span class="trans ptext">Ignaguración</span>  
         <div>
-          <span class="clock "></span>
+          <span class="clock " id="unidades"></span>
         </div>
       </div>
     </section>
 
     <!-- Unidades -->
-    <section class="container px-4 px-lg-5">
+    <section class="container px-4 px-lg-5" >
     <div class="row gx-0 mb-5 mb-lg-0 justify-content-center mt-lg-5 mt-md-5 p-3 ">
       <div class="col-lg-5 ml-2">
      <h4 class="mt-5">Características de la unidad</h4>
@@ -166,7 +170,6 @@
     </p>
       </div>
       <div class="col-lg-7">
-   
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -192,64 +195,64 @@
     </div>
   </section>
 
-  <section class="container px-4 px-lg-4">
+  <section class="container px-4 px-lg-4 ">
     <div class="row mb-5 mb-lg-0  mt-lg-3 mt-md-4 p-3 ">
-      <div class="col-lg-4 ml-2">
-        <img class="img-fluid"  src="./assets/img/unidades/interiorestar.jpg" alt="">
+      <div class="col-lg-4 ml-2 image-container" >
+        <img class="img-fluid  " src="./assets/img/unidades/interiorestar.jpg" alt="">
       </div>
-      <div class="col-lg-4">
-   
+      <div class="col-lg-4 image-container">
         <img class="img-fluid"  src="./assets/img/unidades/interiorhabitacion.jpg" alt="">
       </div>
-      <div class="col-lg-4 ml-2">
+      <div class="col-lg-4 ml-2 image-container">
         <img class="img-fluid" src="./assets/img/unidades/Toma 04 .jpg" alt="">
       </div>
-       
       </div>
     </div>
   </section>
   <section class="container px-4 px-lg-5 mt-3  mb-5">
     <div class="row">
-    <div class="col-md-6">
-           
+    <div class="col-md-4">
               <p class="mb-0 ">
                 -Muros 23 cm de espesor <br>
                 -termotanque solar<br>
-                -Losa de hormigón armado<br>
                 -Terminaciones de categoría<br>
                 -Preinstalaciones de aire acondicionado<br>
-             
-               
               </p> 
-       
             </div>
-
-            <div class="col-md-6">
-           
+            <div class="col-md-4">
               <p class="mb-0 ">
-            
                 -Ambientes luminosos con aperturas de piso a techo con doble vidirio hermético<br>
                 -Puertas de interior de 80cm con burlete acústico<br>
+                -Losa de hormigón armado<br>
+              </p> 
+            </div>
+            <div class="col-md-4">
+              <p class="mb-0 ">
                 -Acabados de muro de interiores en yeso<br>
                 -Losa radiante<br>
-                -Aislación sonora entre unidades con cámaras de aire<br>
-               
-              </p> 
-       
+                -Aislación sonora entre unidades con cámaras de aire<br> 
+              </p>
             </div>
           </div>
+          <a class="btn btn-primary text-center mt-3 mb-2">Descargar PDF</a>
   </section>
 
     
-  <section class="img2 d-flex align-items-center justify-content-center">
+  <section class="img-3 d-flex align-items-center justify-content-center">
     <div class="text-center text-white">
-          <span class="trans ptext">Avance de obra</span>  
+          <span class="trans ptext " id="avance">Cuidamos cada detalle</span>  
     </div>
   </section>
 
-  <section class="container px-4 px-lg-5">
+  <section class="container px-4 px-lg-5 " >
     <div class="row gx-0 mb-5 mb-lg-0 justify-content-center mt-lg-5 mt-md-5 p-3 ">
-   
+      <div class="col-lg-5 ml-2">
+        <h4 class="mt-5">Avances de obra</h4>
+        <p class="mr-3">
+          Compartimos con ustedes como se va gestando Olsen leloir
+        </p>
+      </div>
+    <div class="col-lg-7">
             <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -271,18 +274,62 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div> 
-    
+      </div>
+    </div>
   </section>
-   
+  <hr class="mt-5 mb-5" id="contacto">
+  <!-- Contacto -->
+  <section class="container-fluid" >
+    <div class="row justify-content-center ">
+      <div class="col-md-5 p-0">
+        <img class=" img-fluid"  src="./assets/img/unidades/contact.jpg" alt="">
+      </div>
+      
+      <div class="col-md-5 bg-green pb-3">
+        <h5 class="mt-3 mb-5">Contacto</h5>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <input type="email" class="form-control" id="inputName4"  placeholder="Nombre">
+          </div>
+          <div class="col-md-6">
+            <input type="password" class="form-control" id="inputPhone4" placeholder="Teléfono">
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control" id="inputAddress" placeholder="anaperez@gmail.com">
+          </div>
+      
+          <div class="col-12">
+            <textarea class="form-control" placeholder="Escribinos tu consulta, y te responderemos a la brevedad" id="floatingTextarea"></textarea>
+          </div>
+          <div class="col-12 justify-content-end">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  
+  </section>
+  <hr class="mt-5 mb-5">
+
+  <section id="ubicacion">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1054040236086!2d-58.70463888505153!3d-34.62677656622507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbe527d1028b3%3A0x96c1d2c1130c9981!2sLa%20Pialada%203602%2C%20B1715CBJ%20Udaondo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1671197625588!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
     
     <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50">
-      <div class="container px-4 px-lg-5">
-        Copyright &copy; Your Website 2022
+    <footer class="container footer  small text-center text-white-50">
+      <div class="justify-content-center">
+        <i class=" m-2 bi bi-instagram"></i>
+        <i class="m-2 bi bi-facebook"></i>
+        <i class="m-2 bi bi-whatsapp"></i>
       </div>
-    
+      <div class="row justify-content-center">
+      <hr class=" col-md-6 mt-5 mb-5 hr-50">
+    </div>
+      <div class="container text-black px-4 px-lg-5">
+        Copyright &copy; Olsen Reserva Leloir 2022 by Amapola Digital estudio creativo
+      </div>
     </footer>
-
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->

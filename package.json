@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jquery": "^3.6.2"
+    "jquery": "^3.6.2",
+    "splitting": "^1.0.6"
   }
 }

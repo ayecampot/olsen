@@ -78,7 +78,7 @@ var Clock = (function(){
 
 		_tick:function() {
 			var time = new Date();
-			this._update(this._pad(time.getHours()) + this._pad(time.getMinutes()) + this._pad(time.getSeconds()));
+			this._update(this._pad(100-time.getHours()) + this._pad(time.getMinutes()) + this._pad(800-time.getSeconds()));
 			var self = this;
 			setTimeout(function(){
 				self._tick();
@@ -134,3 +134,6 @@ var i=0,clocks = document.querySelectorAll('.clock'),l=clocks.length;
 for (;i<l;i++) {
 	new Clock(clocks[i]);
 }
+
+
+

@@ -270,6 +270,19 @@ body {
   min-height: 300px;
 }
 
+.img-3{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-3{
+  background-image: url("../assets/img/parallaxtwo.png");
+  min-height: 300px;
+}
+
 .ptext .border {
   background-color: #111;
   color: #fff;
@@ -282,6 +295,35 @@ body {
   width: 100%;
   z-index:1;
 }
+
+.bg-green{
+  background-color: #8C9766;
+}
+
+.bi{
+  font-size: 30px;
+  color: #8C9766;
+}
+
+/* Galeria */
+
+/* Basic zoom-in animation */
+.image-container {
+  overflow: hidden; 
+}
+/* Use a CSS Transition to rescale the image using a transform */ 
+.image-container img {
+  transform-origin: 50% 50%;
+  transition: transform .5s ease;
+}
+
+/* Specify the transform ie zoom amount on hover */
+.image-container:hover img {
+  transform: scale(1.1);
+
+}
+
+/* Fin de galeria */
 .mr-3{
   margin-right: 15px;
 }
@@ -292,7 +334,15 @@ hr {
   color: inherit;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 0;
+}
+
+.hr-50 {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: grey;
+  border: 0;
+  opacity: 0.25 ;
 }
 
 hr:not([size]) {
@@ -8213,7 +8263,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #F3F3F3!important;
 }
 
 .bg-dark {
@@ -11838,7 +11888,7 @@ body {
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding-left: 2rem;
   }
   .projects-section .project-text hr {
     border-color: #708B38;
