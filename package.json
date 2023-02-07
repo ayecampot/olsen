@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jquery": "^3.6.2",
+    "query": "^0.2.0",
     "splitting": "^1.0.6"
   }
 }
