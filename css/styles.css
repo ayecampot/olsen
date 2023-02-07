@@ -233,9 +233,17 @@ body {
 
 
 .p-6{
-padding: 6rem 3rem 0 3rem !important;
+padding: 2rem 3rem 2rem 3rem !important;
 }
 
+.m-right{
+  margin-right: 2rem ;
+
+}
+
+.pb-8{
+  padding-bottom: 6rem;
+}
 /* Scroll */
 
 .js-scroll {
